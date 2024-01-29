@@ -9,24 +9,28 @@ I denne øvingen får dere utlevert noen \verb|.c| og \verb|.h|-filer i \verb|ex
 \begin{center}
  \begin{tabular}{|p{8.5cm} p{5.5cm}|} 
  \hline
- \textbf{Filer} & \textbf{Skal denne filen endres?}  \\ [0.5ex] 
+ \textbf{Filer} & \textbf{Skal filen(e) endres?}  \\ [0.5ex] 
  \hline\hline
- \verb|example/source/main.c| & nei  \\ 
+ \verb|example/source/main.c| & Nei  \\ 
  \hline
- \verb|example/source/memory_library.c| & nei  \\ 
+ \verb|example/source/memory_library.c| & Nei  \\ 
  \hline
- \verb|example/source/memory_library.h| & nei  \\ 
+ \verb|example/source/memory_library.h| & Nei  \\ 
  \hline
-  \verb|document_this/source/main.c| & nei  \\ 
+  \verb|document_this/source/main.c| & Nei  \\ 
  \hline
- \verb|document_this/source/calculations.c| & nei  \\ 
+ \verb|document_this/source/calculations.c| & Nei  \\ 
  \hline
- \verb|document_this/source/calculations.h| & ja  \\ 
+ \verb|document_this/source/calculations.h| & Ja  \\ 
  \hline
- \verb|document_this/source/system.c| & nei  \\ 
+ \verb|document_this/source/system.c| & Nei  \\ 
  \hline
- \verb|document_this/source/system.h| & ja  \\ 
+ \verb|document_this/source/system.h| & Jøss, ja!  \\ 
  \hline
+  \verb|Main/*| & Nei  \\ 
+ \hline
+  \verb|.github/*| & Nei \\
+ \hline 
 \end{tabular}
 \end{center}
 
@@ -53,7 +57,7 @@ Til å starte med skal dere få en grunnleggende innføring i bruk av Doxygen i 
 Dette kapitlet gir en innføring i bruk av Doxygen med et eksempelprosjekt. Dere har fått utlevert en mappe som heter \verb|example|. I mappen kan dere finne en \verb|memory|-modul, som definerer enkle operasjoner på lister av heltall. Denne modulen er implementert i \verb|memory_library.h| og \verb|memory_library.c|. Prosjekttreet ser slik ut:
 
 \dirtree{%
-.1 memory.
+.1 example.
 .2 Makefile.
 .2 source.
 .3 main.c.
@@ -81,7 +85,7 @@ Før man kan bruke Doxygen, må man opprette en konfigurasjonsfil med kommandoen
 Prosjekttreet ser nå slik ut:
 
 \dirtree{%
-.1 memory.
+.1 example.
 .2 Makefile.
 .2 doxconfig.
 .2 source.
