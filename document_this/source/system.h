@@ -1,9 +1,12 @@
 #ifndef SYSTEM_H
 #define SYSTEM_H
 
+/*
+ * @brief Enum of tuning rules
+ */
 typedef enum {
-    Classic_Ziegler_Nichols,
-    Pessen_Integral_Rule
+    Classic_Ziegler_Nichols, /*< Ziegler Nichols */
+    Pessen_Integral_Rule /*< Pessen */
 } Tuning;
 
 /**
